@@ -86,7 +86,7 @@ string BFS(State &initialState) {
                         s += std::to_string(move.col) + " " + std::to_string(move.row) + " " + move.dir + " " +
                              std::to_string(move.n) + "\n";
                     }
-                    std::cout << s;
+//                    std::cout << s;
                     return s;
                 }
             }

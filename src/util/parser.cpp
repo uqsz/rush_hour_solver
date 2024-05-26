@@ -87,7 +87,6 @@ State load_file(string filepath) {
     std::istringstream iss(input);
 
     int rows, cols, steps;
-    char c;
     iss >> cols >> rows >> steps;
 
     State::rows = rows;
@@ -95,7 +94,7 @@ State load_file(string filepath) {
 
     while (std::getline(iss, line)) {
         if (!line.empty()) {
-            std::cout << line << std::endl;
+//            std::cout << line << std::endl;
             x.push_back(line);
         }
     }
