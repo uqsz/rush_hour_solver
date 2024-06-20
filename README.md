@@ -29,6 +29,6 @@ Input examples are available in [test inputs](tests/tests_input/).
 
 Solver uses BFS by exploring all possible moves in a systematic manner, ensuring the shortest path to the solution is found.The algorithm involves initializing a queue with the initial state of the board, representing each state as a snapshot of the board configuration, and processing the queue by generating and enqueuing all valid new states while keeping track of visited states to avoid redundancy.
 
-### Summary
+## Summary
 
 This solver provides an efficient method to tackle the Rush Hour puzzle using BFS, ensuring that the shortest solution path is identified by exploring all possible moves in a systematic manner. It serves as a practical example of applying graph search algorithms to solve real-world puzzles.
