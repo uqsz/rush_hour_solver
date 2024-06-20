@@ -25,7 +25,7 @@ length 3 end with "z", and those with length 4 end with "w").
 
 Input examples are available in [test inputs](tests/tests_input/).
 
-### Main algorithm
+### Algorithm
 
 Solver uses BFS by exploring all possible moves in a systematic manner, ensuring the shortest path to the solution is found.The algorithm involves initializing a queue with the initial state of the board, representing each state as a snapshot of the board configuration, and processing the queue by generating and enqueuing all valid new states while keeping track of visited states to avoid redundancy.
 
